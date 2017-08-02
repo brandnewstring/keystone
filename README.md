@@ -17,7 +17,7 @@ You can clone from here or just by
 
 Don't forget to at least modify password and database address in keystone.conf and mount keystone.conf.
 
-## Verify
+## Verification
 Enter into the container and do:
 ```
 $source openrc
