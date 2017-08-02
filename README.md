@@ -14,7 +14,8 @@ You can clone from here or just by
 
 ## How to use
 ```docker run -d -p 5000:5000 -p 35357:35357 -v `pwd`/keystone.conf:/etc/keystone/keystone.conf keystone```
-Don't forget to mount keystone.conf
+
+Don't forget to at least modify password and database address in keystone.conf and mount keystone.conf.
 
 ## Verify
 Enter into the container and do:
